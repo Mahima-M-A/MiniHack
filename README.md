@@ -5,7 +5,7 @@
 Use basic [git](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) to install and run SickPro.
 
 ```bash
-git clone https://github.com/nimishbongale/SickPro.git
+git clone https://github.com/Mahima-M-A/MiniHack.git
 ```
 
 Once cloned, the app may be run through appropriate softwares, such as android studio.
