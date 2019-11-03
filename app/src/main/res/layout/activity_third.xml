@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:id="@+id/q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1. When were you first diagnosed with diabetes?" />
+
+    <EditText
+        android:id="@+id/a1i"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Year"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/a1ii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="2. Current weight(in kg)" />
+
+    <EditText
+        android:id="@+id/a2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Weight"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="3. Do you use insulin pump?" />
+    <EditText
+        android:id="@+id/a3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Y/N"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/q4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="4. Do you exercise regularly?" />
+    <EditText
+        android:id="@+id/a4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Y/N"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/q5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="5. Do you smoke or consume alcohol or both?" />
+    <EditText
+        android:id="@+id/a5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Y/N"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/q6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="6. Water intake(in litres)." />
+    <EditText
+        android:id="@+id/a6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="litre"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/q7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="7. How many pills do you take on a regular basis?" />
+    <EditText
+        android:id="@+id/a7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Answer"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/q8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="8. Enter the names of medicines." />
+    <EditText
+        android:id="@+id/a8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Names"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/shape"
+        android:text="Submit"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
