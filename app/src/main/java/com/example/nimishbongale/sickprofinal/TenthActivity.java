@@ -39,5 +39,14 @@ public class TenthActivity extends AppCompatActivity {
                 startActivity(implicit2);
             }
         });
+        Button btn2=(Button)findViewById(R.id.mq);
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Intent implicit=new Intent (TenthActivity.this,ThirdActivity.class);
+                startActivity(implicit);
+            }
+        });
     }
 }
